@@ -23,7 +23,7 @@ with st.form("prediction_form"):
     submitted = st.form_submit_button("Predict Price 🚀")
 
 if submitted:
-    api_url = "http://127.0.0.1:8000/predict"
+    api_url = "https://case-1-house-price-prediction-system.onrender.com"
     
     payload = {
         "size_sqft": size,
